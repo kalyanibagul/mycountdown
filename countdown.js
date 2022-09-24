@@ -15,10 +15,7 @@ const textMinute =Math.floor(gap%(hour)/(minute));
 const textSecond =Math.floor(gap%(minute)/(second));
 
 
-//const textDay= Math.floor(gap/(1000*60*60*24));
-//const textHour =Math.floor(gap%(1000*60*60*24)/(1000*60*60));
-//const textMinute = Math.floor(gap%(1000*60*60)/(1000*60));
-//const textSecond = Math.floor(gap%(1000*60)/(1000));
+
 
 document.querySelector(".day").innerText= textDay;
 document.querySelector(".hour").innerText= textHour;
